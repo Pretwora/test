@@ -1,0 +1,60 @@
+body {
+  background-color: bisque;
+  color: #0f141e;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.avatar {
+  width: 400px;
+  border-radius: 25%;
+  box-shadow: 20px 20px 75px rgba(0, 0, 0, 0.25);
+}
+.info p {
+  color: #86458f;
+  margin: 0%;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  /* text-transform: uppercase; */
+  /* letter-spacing: 2px; */
+  word-spacing: 3px;
+}
+
+.social {
+  background-color: peru;
+  /* padding: 10px; */
+  padding: 0px 40px;
+  border: 5px solid red;
+  border-bottom-style: dashed;
+  border-top-width: 13px;
+  border-right-color: green;
+  margin: 20px;
+}
+.container {
+  max-width: 75%;
+  margin: auto;
+}
+a {
+  color: #0f141e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+/* .box-model div {
+  float: left;
+  background: black;
+  height: 200px;
+  width: 25%;
+} */
